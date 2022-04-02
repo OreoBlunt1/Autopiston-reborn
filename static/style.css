@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    font-family: 'Rubik';
+}
+
+
+/* Blue part of header */
+.top-plank {
+    height: 50px;
+    width: 100%;
+    background-color: #268ed9;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+.top-plank .container {
+    height: 100%;
+}
+.top-plank span {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+.top-plank .row {
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-plank button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    color: white;
+    background-color: #2280c3;
+    border: none;
+    border-radius: 5px;
+    
+}
+.lang-switcher {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2280c3;
+    color: white;
+    font-weight: 500;
+}
+@media screen and (max-width: 768px)  {
+    .top-plank span {
+        margin-right: 3.5px;
+        margin-left: 3.5px;
+    }
+    .top-plank .row {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .lang-switcher {
+        display: none;
+    }
+}
+
+
+/* Part of header with  searchbox and icons*/
+.main-plank {
+    height: 110px;
+    width: 100%;
+    background-color: white;
+}
+.main-plank .container {
+    height: 100%;
+}
+.main-plank .row {
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-plank img {
+    width: 100px;
+    height: 50px;
+    background-color: #268ed9;
+    border-radius: 5px;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+.search input {
+    display: inline-flex;
+    height: 40px;
+    width: 500px;
+    border: 1.5px solid #268ed9;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.search button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    width: 50px;
+    background-color: #268ed9;
+}
+.search img {
+    width: 16px;
+    height: 16px;
+    background-color: #268ed9;
+}
+.main-plank .profile-buttons img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-color: #F7F8FA;
+}
+@media screen and (max-width: 992px) {
+    .main-plank .search input {
+        width: 350px;
+    }
+}
+@media screen and (max-width: 768px)  {
+    .main-plank .row {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .main-plank .search input {
+        width: 250px;
+    }
+}
+
+
+/* Navigation menu */
+.navigation {
+    background-color: #F7F8FA;
+    height: 67px;
+}
+.all-collections {
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 67px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background-color: #268ed9;
+}
+.all-collections span {
+    margin-left: 20px;
+}
+.nav-buttons {
+    display: flex;
+}
+.nav-buttons button {
+    padding-right: 32.5px;
+    padding-left: 32.5px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #F7F8FA;
+    border: none;
+    color: #555555;
+}
+.nav-buttons button:hover {
+    background-color: #d0d6e2;
+}
+
+
+/* List of different types of viewing fasteners */
+.collections-list {
+    background-color: #F7F8FA;
+}
+.collections-list button {
+    color: #555555;
+    font-size: 14px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+    margin-bottom: 0px;
+    background-color: #F7F8FA;
+    border: none;
+    border-bottom: 1px solid rgba(85, 85, 85, 0.1);
+}
+.collections-list .last {
+    border-bottom: none;
+    height: 40px;
+}
+.collections-list button:hover {
+    background-color: #d0d6e2;
+}
+
+
+/* Top-Footer */
+.top-footer {
+    height: 275px;
+    border-bottom: 1px solid rgba(85, 85, 85, 0.2);
+}
+.top-footer .container {
+    height: 100%;
+}
+.top-footer .column-w-logo {
+    font-size: 16px;
+}
+.top-footer .row {
+    height: 100%;
+    font-size: 18px;
+    color: #555555;
+    align-items: start;
+}
+.top-footer img {
+    width: 100px;
+    height: 50px;
+    background-color: #268ed9;
+    border-radius: 5px;
+}
+.header-txt {
+    font-weight: 600;
+}
+.description {
+    margin-bottom: 30px;
+}
+
+
+/* Bot-Footer */
+.bot-footer {
+    height: 80px;
+}
+.bot-footer .container {
+    height: 100%;
+}
+.bot-footer .row{
+    height: 100%;
+    font-size: 14px;
+    color: #555555;
+    justify-content: space-between;
+    align-items: center;
+}
+.other-shit a {
+    margin-left: 50px;
+}
+
+
+/* Commodity card */
+.supplies {
+    padding-top: 40px;
+    margin-bottom: 250px;
+    margin-right: -50px;
+}
+.card {
+    margin-right: 50px;
+}
+.spacer {
+    margin-left: 5px; 
+    margin-right: 5px;
+}
+.card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 2px;
+}
+.type, .car {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #757575B5;
+}
+.retail, .wholesale {
+    margin-top: -8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #268ed9;
+}
+.name {
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 24px;
+}

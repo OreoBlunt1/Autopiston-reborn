@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autopiston</title>
+    <link href="static/style.css" type="text/css" rel="stylesheet" >
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <!-- Blue part of header -->
+        <div class="top-plank">
+            <div class="container">
+                <div class="row">
+                    <a>Car fasteners for foreign cars</a>
+                    <div>
+                        <select class="lang-switcher">
+                            <option value="en-US">English (US)</option>
+                            <option value="ru">Русский (РФ)</option>
+                        </select>
+                        <span class="spacer-1"></span>
+                        <button>Login</button>
+                        <span class="spacer-2"></span>
+                        <button>Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Part of header with  searchbox and icons -->
+        <div class="main-plank">
+            <div class="container">
+                <div class="row">
+                    <img class="logo" src="static/img/logo.png">
+                    <form id="form" class="search">
+                                <input type="search" placeholder="Search here...">
+                                <button>
+                                    <img src="static/img/search.svg">
+                                </button>
+                    </form>
+                    <div class="profile-buttons">
+                        <a><img src="static/img/basket.svg"></a>
+                        <a><img src="static/img/notification.svg"></a>
+                        <a><img src="static/img/profile.svg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation menu -->
+        <div class="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="all-collections">
+                        <img src="static/img/burger.svg">
+                        <span>ALL COLLECTIONS</span>
+                    </div>
+                    <div class="nav-buttons">
+                        <button>HOME</button>
+                        <button>SHOP</button>
+                        <button>BLOG</button>
+                        <button>ABOUT</button>
+                        <button>CONTACT US</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- List of different types of viewing fasteners -->
+        <div class="container">
+            <div class="row">
+                <div class="collections-list">
+                    <button>All</button>
+                    <button>New Arrivals</button>
+                    <button>Catalog by car</button>
+                    <button>Catalog by type</button>
+                    <button class="last">Wheel fasteners</button>
+                </div>
+                <!-- Supplies cards -->
+                <div class="container-fluid supplies">
+                    <div class="row">
+                        <div class="card col-xl-3">
+                            <img src="static/img/7932.JPG">
+                            <div class="type car">
+                                <span class="type">Bolt</span>
+                                <span class="spacer">·</span>
+                                <span class="car">Universal</span>
+                            </div>
+                            <p class="name">Autopiston 7932</p>
+                            <p class="id"></p>
+                            <div class="retail wholesale">
+                                <span class="retail">Retail - 30₽</span>
+                                <span class="spacer">·</span>
+                                <span class="wholesale">Wholesale - 14₽</span>
+                            </div>
+                        </div>
+                        <div class="card col-xl-3">
+                            <img src="static/img/7932.JPG">
+                            <div class="type car">
+                                <span class="type">Bolt</span>
+                                <span class="spacer">·</span>
+                                <span class="car">Universal</span>
+                            </div>
+                            <p class="name">Autopiston 7932</p>
+                            <p class="id"></p>
+                            <div class="retail wholesale">
+                                <span class="retail">Retail - 30₽</span>
+                                <span class="spacer">·</span>
+                                <span class="wholesale">Wholesale - 14₽</span>
+                            </div>
+                        </div>
+                        <div class="card col-xl-3">
+                            <img src="static/img/7932.JPG">
+                            <div class="type car">
+                                <span class="type">Bolt</span>
+                                <span class="spacer">·</span>
+                                <span class="car">Universal</span>
+                            </div>
+                            <p class="name">Autopiston 7932</p>
+                            <p class="id"></p>
+                            <div class="retail wholesale">
+                                <span class="retail">Retail - 30₽</span>
+                                <span class="spacer">·</span>
+                                <span class="wholesale">Wholesale - 14₽</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- Top-Footer -->
+        <div class="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="container column-w-logo col-xl-4">
+                        <img src="static/img/logo.png">
+                        <p class="description">
+                            Auto fastener store "Auto Piston" <br>old name "Fixag". Our company offers<br> advanced service, 
+                            product range<br> expansion and faster search.
+                        </p>
+                        <p class="header-txt">
+                            +7 (965) 123-52-50 - Phone/Whats-app
+                        </p>
+                    </div>
+                    <div class="conrainer col-xl-3">
+                        <p class="header-txt">Help</p>
+                        <p>Privacy Policy</p>
+                        <p>Shipping & Delivery</p>
+                        <p>Refund Policy</p>
+                        <p>Track Your Order</p>
+                    </div>
+                    <div class="container col-xl-3">
+                        <p class="header-txt">Store</p>
+                        <p>Auto fasteners</p>
+                        <p>Stands</p>
+                        <p>Boxes for supplies</p>
+                    </div>
+                    <div class="container col-xl-2">
+                        <p class="header-txt">Supports</p>
+                        <p>Feedback</p>
+                        <p>Contact us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bot-Footer -->
+        <div class="bot-footer">
+            <div class="container">
+                <div class="row">
+                    <span>© 2022 Autopiston - all rights reserved</span>
+                    <div class="other-shit">
+                        <a>Privacy</a>
+                        <a>Security</a>
+                        <a>Terms</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
